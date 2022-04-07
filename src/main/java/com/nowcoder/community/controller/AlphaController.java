@@ -72,5 +72,6 @@ public class AlphaController {
         return "a student";
     }
 
+
     
 }
