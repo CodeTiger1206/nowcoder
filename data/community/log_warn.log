@@ -1,0 +1,8 @@
+2022-04-08 10:28:34,850 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:780] HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s714ms), soft-evicting connections from pool.
+2022-04-08 11:55:16,894 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m50s980ms).
+2022-04-08 11:58:44,865 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m27s972ms).
+2022-04-08 13:26:34,224 WARN [HikariPool-2 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=21m34s159ms).
+2022-04-08 13:45:21,467 WARN [HikariPool-2 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=18m17s233ms).
+2022-04-08 13:54:49,336 WARN [HikariPool-2 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=9m27s870ms).
+2022-04-08 14:32:08,851 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m50s306ms).
+2022-04-08 15:02:39,421 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:780] HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s504ms), soft-evicting connections from pool.
