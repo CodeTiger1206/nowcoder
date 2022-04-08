@@ -282,3 +282,33 @@
 2022-04-08 15:19:12,538 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
 2022-04-08 15:19:12,573 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
 2022-04-08 15:19:12,709 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-04-08 16:24:34,037 INFO [Thread-5] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-04-08 16:24:34,041 INFO [Thread-5] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-04-08 16:24:41,176 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 11.0.7 on MacBook-Pro.local with PID 11824 (/Users/liudonghui/IdeaProjects/community/target/classes started by liudonghui in /Users/liudonghui/IdeaProjects/community)
+2022-04-08 16:24:41,177 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-08 16:24:41,389 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-04-08 16:24:41,390 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-04-08 16:24:41,390 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-08 16:24:41,402 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-04-08 16:24:41,402 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 223 ms
+2022-04-08 16:24:41,474 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-08 16:24:41,537 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2022-04-08 16:24:41,542 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-08 16:25:12,327 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication using Java 11.0.7 on MacBook-Pro.local with PID 11824 (/Users/liudonghui/IdeaProjects/community/target/classes started by liudonghui in /Users/liudonghui/IdeaProjects/community)
+2022-04-08 16:25:12,328 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-08 16:25:12,708 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-04-08 16:25:12,710 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-04-08 16:25:12,710 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-08 16:25:12,734 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-04-08 16:25:12,741 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 410 ms
+2022-04-08 16:25:13,121 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-08 16:25:13,215 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-04-08 16:25:13,259 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-04-08 16:25:13,268 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 0.986 seconds (JVM running for 3972.904)
+2022-04-08 16:25:13,272 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-04-08 16:25:14,435 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:55] Starting SensitiveTests using Java 11.0.7 on MacBook-Pro.local with PID 13827 (started by liudonghui in /Users/liudonghui/IdeaProjects/community)
+2022-04-08 16:25:14,437 INFO [main] c.n.c.SensitiveTests [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-08 16:25:16,578 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-04-08 16:25:16,831 INFO [main] c.n.c.SensitiveTests [StartupInfoLogger.java:61] Started SensitiveTests in 2.848 seconds (JVM running for 4.629)
