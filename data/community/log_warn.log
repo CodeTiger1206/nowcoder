@@ -9,3 +9,9 @@
 2022-04-10 14:12:12,854 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m9s635ms).
 2022-04-10 14:13:12,676 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:780] HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s818ms), soft-evicting connections from pool.
 2022-04-10 15:14:13,473 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:780] HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s753ms), soft-evicting connections from pool.
+2022-04-10 16:13:12,296 WARN [http-nio-8080-exec-6] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:208] Resolved [java.lang.NumberFormatException: For input string: "abc"]
+2022-04-10 17:28:56,174 WARN [HikariPool-2 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=9m20s88ms).
+2022-04-10 17:50:12,280 WARN [HikariPool-2 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=20m45s798ms).
+2022-04-10 18:05:23,908 WARN [HikariPool-2 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=14m41s615ms).
+2022-04-10 18:12:51,429 WARN [HikariPool-2 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=7m27s521ms).
+2022-04-10 18:47:42,954 WARN [HikariPool-2 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=15m21s308ms).
