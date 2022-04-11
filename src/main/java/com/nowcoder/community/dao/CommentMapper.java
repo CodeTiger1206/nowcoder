@@ -20,4 +20,11 @@ public interface CommentMapper {
     int selectCountByEntity(@Param("entityType")int entityType, @Param("entityId")int entityId);
 
     int insertComment(Comment comment);
+
+    Comment selectCommentById(@Param("id")int id);
+
+    List<Comment> selectCommentsByUser(@Param("userId")int userId, @Param("offset")int offset,
+                                       @Param("limit")int limit);
+
+    int selectCountByUser(@Param("userId")int userId);
 }

@@ -10,6 +10,7 @@ import org.apache.ibatis.annotations.*;
  * @Description:
  */
 @Mapper
+@Deprecated // 声明不推荐使用
 public interface LoginTicketMapper {
 
     @Insert({
