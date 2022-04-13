@@ -34,6 +34,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter implements Comm
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+        // 没有认证
         // 授权
         http.authorizeRequests()
                 .antMatchers(
@@ -51,6 +52,20 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter implements Comm
                         AUTHORITY_USER,
                         AUTHORITY_ADMIN,
                         AUTHORITY_MODERATOR
+                )
+                .antMatchers(
+                        "/discuss/top",
+                        "/discuss/wonderful"
+                )
+                .hasAnyAuthority(
+                        AUTHORITY_MODERATOR
+                )
+                .antMatchers(
+                        "/discuss/delete",
+                        "/data/**"
+                )
+                .hasAnyAuthority(
+                        AUTHORITY_ADMIN
                 )
                 .anyRequest().permitAll()
                 .and().csrf().disable(); // 不启用csrf检查
