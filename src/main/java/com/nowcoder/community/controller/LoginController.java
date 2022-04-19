@@ -85,8 +85,10 @@ public class LoginController implements CommunityConstant {
         }
     }
 
+    // 激活邮件中的连接命中此controller
     @RequestMapping(path = "/activation/{userId}/{code}",method = RequestMethod.GET)
     public String activation(Model model, @PathVariable("userId") int userId,@PathVariable("code") String code){
+        // 获取激活操作的结果
         int result = userService.activation(userId, code);
         if (result == ACTVIATION_SUCCESS){
             model.addAttribute("msg","激活成功，您的账号已经可以正常使用了!");
@@ -117,6 +119,7 @@ public class LoginController implements CommunityConstant {
         cookie.setMaxAge(60);
         cookie.setPath(contextPath);
         response.addCookie(cookie);
+
         // 将验证码存入redis
         String redisKey = RedisKeyUtil.getKaptchaKey(kaptchaOwner);
         redisTemplate.opsForValue().set(redisKey,text,60, TimeUnit.SECONDS);

@@ -17,7 +17,8 @@ import java.util.List;
 public interface DiscussPostMapper {
 
     //根据userId查询所以发帖，userId可有可无
-    List<DiscussPost> selectDiscussPosts(@Param("userId")int userId, @Param("offset")int offset, @Param("limit")int limit);
+    List<DiscussPost> selectDiscussPosts(@Param("userId")int userId, @Param("offset")int offset,
+                                         @Param("limit")int limit,@Param("orderMode")int orderMode);
 
     int selectDiscussPostRows(@Param("userId") int userId);
 
@@ -31,4 +32,6 @@ public interface DiscussPostMapper {
 
     int updateStatus(@Param("id") int id, @Param("status") int status);
 
+
+    int updateScore(@Param("id") int id, @Param("score")double score);
 }
